@@ -58,44 +58,33 @@ height:35px;
 	font-family: cursive;
 	
 }
-
+#table{margin-top: 10%;
+height: 200px;
+width: 200px }
 </style>	
 
 </head>
 
 <body style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')')">
 <div class="div">
-<%  String user = session.getAttribute("Name").toString();
 
+<table id = "table"> 
+<thead>
 
+</thead>
+Products
+<thead>
+products
+</thead>
 
-Cust_Interface ci = Cust_Factory.getObj("demo");
+<tr>
+<img alt="" src="https://images-na.ssl-images-amazon.com/images/I/71apfnsRWeL._UX342_.jpg">
+</tr>
+<tr>
+<img alt="" src="https://media.blingjewelry.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/brown-leather-mens-skeleton-watch_mdi-mw-41-br-az_1.jpg">
+</tr>
 
-
-
-Customer b = ci.getUserInfo(user);
-
-out.println("<a href=\"update.jsp\" > <input id = \"button \" type=\"submit\" value=\"Update Profile\"></a>" ); 
-out.println("<a href=\"shopping.jsp\" > <input id = \"button \" type=\"submit\" value=\"Shopping\"></a>" ); 
-
-out.println("<h1 >******************* YOUR PROFILE **************  </h1>");
-
-out.println("<h1> --- FIRST NAME ---</h1> "+" <h1>"+b.getFirstName()+" </h1>");
-out.println("<h1> --- LAST NAME  ---</h1>"+" <h1>"+b.getLastName()+" </h1>");
-out.println("<h1> --- EMAIL      ---</h1>"+" <h1>"+b.getEmail()+" </h1>");
-
-out.println("<h1 >***********************************************  </h1>");
-
-
-session.setAttribute("fname",b.getFirstName());
-session.setAttribute("email",b.getEmail());
-session.setAttribute("lname",b.getLastName());
-session.setAttribute("userId",b.getUserId());
-
-
-
-
-%>	
+</table>
 
 </div>
 </body>

@@ -13,7 +13,7 @@ public class UI_Test extends HttpServlet{
 
 		Cust_Interface ci = Cust_Factory.getObj("demo");
 		
-		 boolean c = ci.UpdateProfile("1000", "sowmith", "pentaparthy", "parthy@gmail.com");
+		 boolean c = ci.UpdateProfile("100", "sowmith", "pentaparthy", "parthy@gmail.com");
 		System.out.println(c);
 		//System.out.println(ci.validateUser("6", "xyz"));;
 /*		UserState u = UserState.Active;

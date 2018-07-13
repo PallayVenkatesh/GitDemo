@@ -34,5 +34,6 @@
 	<classpathentry kind="lib" path="C:/Users/palla/Downloads/apache-tomcat-9.0.10-windows-x64/apache-tomcat-9.0.10/lib/tomcat-websocket.jar"/>
 	<classpathentry kind="lib" path="C:/Users/palla/Downloads/apache-tomcat-9.0.10-windows-x64/apache-tomcat-9.0.10/lib/websocket-api.jar"/>
 	<classpathentry kind="lib" path="C:/Users/palla/Downloads/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/palla/Downloads/log4j-1.2.16.jar/log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

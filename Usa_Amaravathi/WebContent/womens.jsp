@@ -65,38 +65,14 @@ height:35px;
 
 <body style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')')">
 <div class="div">
-<%  String user = session.getAttribute("Name").toString();
-
-
-
-Cust_Interface ci = Cust_Factory.getObj("demo");
-
-
-
-Customer b = ci.getUserInfo(user);
-
-out.println("<a href=\"update.jsp\" > <input id = \"button \" type=\"submit\" value=\"Update Profile\"></a>" ); 
-out.println("<a href=\"shopping.jsp\" > <input id = \"button \" type=\"submit\" value=\"Shopping\"></a>" ); 
-
-out.println("<h1 >******************* YOUR PROFILE **************  </h1>");
-
-out.println("<h1> --- FIRST NAME ---</h1> "+" <h1>"+b.getFirstName()+" </h1>");
-out.println("<h1> --- LAST NAME  ---</h1>"+" <h1>"+b.getLastName()+" </h1>");
-out.println("<h1> --- EMAIL      ---</h1>"+" <h1>"+b.getEmail()+" </h1>");
-
-out.println("<h1 >***********************************************  </h1>");
-
-
-session.setAttribute("fname",b.getFirstName());
-session.setAttribute("email",b.getEmail());
-session.setAttribute("lname",b.getLastName());
-session.setAttribute("userId",b.getUserId());
-
-
-
-
-%>	
-
+<table>
+<thead>
+1
+</thead>
+<tr>
+2
+</tr>
+</table>
 </div>
 </body>
 </html>
