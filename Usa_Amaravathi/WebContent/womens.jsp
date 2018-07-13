@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-   <%@ page import="USA_amaravathi.*"%> 
+	pageEncoding="ISO-8859-1"%>
+<%@ page import="USA_amaravathi.*"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,69 +10,94 @@
 
 <style type="text/css">
 body {
-	style=background-image: url('http://www.allinallsales.com/image/3.jpg');
+	style =background-image: url('http://www.allinallsales.com/image/3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 body {
-	style =background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg');
+	style =background-image:
+		url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#button{font-size: xx-large;
-    font-weight: bolder;
-    font-family: inherit;
-    height: 50px;
-    margin-top : 5%;
-    width: 220px;
+
+#button {
+	font-size: xx-large;
+	font-weight: bolder;
+	font-family: inherit;
+	height: 50px;
+	margin-top: 5%;
+	width: 220px;
 	color: darkred;
 	border-radius: 20px;
 	background-color: rosybrown;
-    }
-.div 	{
+}
+
+.div {
 	color: darkred;
 	text-transform: uppercase;
 	font-size: x-large;
-	font-weight : bold;
+	font-weight: bold;
 	text-align: center;
 	font-style: italic;
 	font-family: cursive;
-	
 }
 
-h2{
-background-color: rosybrown;
- 
+h2 {
+	background-color: rosybrown;
 }
+
 input {
-border-radius: 20px;
-width:300px;
-height:35px;
-	 background-color: antiquewhite;
-	 color: darkred;
+	border-radius: 20px;
+	width: 300px;
+	height: 35px;
+	background-color: antiquewhite;
+	color: darkred;
 	text-transform: uppercase;
 	font-size: x-large;
-	font-weight : bold;
+	font-weight: bold;
 	text-align: center;
 	font-style: italic;
 	font-family: cursive;
-	
 }
 
-</style>	
+#table {
+	margin-top: 10%;
+}
+
+.prod {
+	height: 200px;
+	width: 200px
+}
+</style>
 
 </head>
 
-<body style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')')">
-<div class="div">
-<table>
-<thead>
-1
-</thead>
-<tr>
-2
-</tr>
-</table>
-</div>
+<body
+	style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')">	<div class="div">
+
+
+		<table id="table">
+			<thead>
+			Products
+			</thead>
+			
+			<thead>
+			products
+			</thead>
+
+			<tr>
+				<img class="prod" alt=""
+					src="http://cdn.shopify.com/s/files/1/0183/7917/products/81cYlbe5dKL._UL1500_grande.jpg?v=1495932923">
+			</tr>
+			<tr>
+				<img class="prod" alt=""
+					src="https://images-na.ssl-images-amazon.com/images/I/71vlQ4BUaJL._UY395_.jpg">
+			</tr>
+
+		</table>
+
+	</div>
 </body>
 </html>

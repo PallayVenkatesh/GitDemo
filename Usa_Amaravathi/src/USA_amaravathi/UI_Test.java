@@ -11,10 +11,7 @@ public class UI_Test extends HttpServlet{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Cust_Interface ci = Cust_Factory.getObj("demo");
 		
-		 boolean c = ci.UpdateProfile("100", "sowmith", "pentaparthy", "parthy@gmail.com");
-		System.out.println(c);
 		//System.out.println(ci.validateUser("6", "xyz"));;
 /*		UserState u = UserState.Active;
 */

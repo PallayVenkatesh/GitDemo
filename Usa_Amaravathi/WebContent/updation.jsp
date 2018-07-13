@@ -45,8 +45,16 @@ background-color: rosybrown;
 input {
 border-radius: 20px;
 width:300px;
-height:30px;
+height:35px;
 	 background-color: antiquewhite;
+	 color: darkred;
+	text-transform: uppercase;
+	font-size: x-large;
+	font-weight : bold;
+	text-align: center;
+	font-style: italic;
+	font-family: cursive;
+	
 }
 
 </style>
@@ -72,7 +80,7 @@ height:30px;
 		
  		if(b==true){
  			out.println("<h1> Successfully Updated </h1>" );	
- 			 out.println("<a href=\"profile.jsp\" > <input id = \"button \" type=\"submit\" value=\"View Profile\"></a>" ); 
+ 			 out.println("<a href=\"Home.html\" > <input id = \"button \" type=\"submit\" value=\"View Profile\"></a>" ); 
  			//out.println("<form   action=\"profile.jsp\">  <input type=\"hidden\" name=\"userId\" value  = "  + "${Param.userID} "+ " ><input type=\"submit\" value=\"View Profile\"> </form>" );
  			String name=request.getParameter("userID");
 			session.setAttribute("Name",name);	

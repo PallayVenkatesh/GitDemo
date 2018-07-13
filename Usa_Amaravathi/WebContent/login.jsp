@@ -49,8 +49,16 @@ background-color: rosybrown;
 input {
 border-radius: 20px;
 width:300px;
-height:30px;
+height:35px;
 	 background-color: antiquewhite;
+	 color: darkred;
+	text-transform: uppercase;
+	font-size: x-large;
+	font-weight : bold;
+	text-align: center;
+	font-style: italic;
+	font-family: cursive;
+	
 }
 
 </style>

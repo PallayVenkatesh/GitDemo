@@ -63,8 +63,8 @@ height:35px;
 
 </head>
 
-<body style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')')">
-<div class="div">
+<body
+	style="background-image: url('https://www.quietrev.com/wp-content/uploads/2015/10/Want-to-Make-Friends-Some-Ways-to-Make-Yourself-Likable_SOURCE_stocksy.jpg')"><div class="div">
 <%  String user = session.getAttribute("Name").toString();
 
 
